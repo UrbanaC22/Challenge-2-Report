@@ -51,8 +51,8 @@ void setup() {
   pinMode(GATE_SAFETY_A, INPUT);
   pinMode(GATE_SAFETY_B, INPUT);
  
-  pinMode(GATE_REQUEST_A, OUTPUT);
-  pinMode(GATE_REQUEST_B, OUTPUT);
+  pinMode(GATE_REQUEST_A, INPUT);
+  pinMode(GATE_REQUEST_B, INPUT);
   digitalWrite(GATE_REQUEST_A, LOW);
   digitalWrite(GATE_REQUEST_B, LOW);
 
